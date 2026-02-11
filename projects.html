@@ -5,25 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Primary Meta Tags -->
-  <title>Ben Bernardy | Full Stack Engineer</title>
-  <meta name="title" content="Ben Bernardy | Full Stack Engineer">
-  <meta name="description" content="Portfolio of Ben Bernardy, a full stack developer specializing in modern web technologies.">
+  <title>Projects | Ben Bernardy</title>
+  <meta name="title" content="Projects | Ben Bernardy">
+  <meta name="description" content="Featured projects and work by Ben Bernardy, Full Stack Engineer.">
   <meta name="author" content="Ben Bernardy">
-  <link rel="canonical" href="https://benbernardy.dev/">
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://benbernardy.dev/">
-  <meta property="og:title" content="Ben Bernardy | Full Stack Engineer">
-  <meta property="og:description" content="Portfolio of Ben Bernardy, a full stack developer specializing in modern web technologies.">
-  <meta property="og:image" content="https://benbernardy.dev/assets/og-image.jpg">
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://benbernardy.dev/">
-  <meta property="twitter:title" content="Ben Bernardy | Full Stack Engineer">
-  <meta property="twitter:description" content="Portfolio of Ben Bernardy, a full stack developer specializing in modern web technologies.">
-  <meta property="twitter:image" content="https://benbernardy.dev/assets/og-image.jpg">
+  <link rel="canonical" href="https://benbernardy.dev/projects.html">
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -39,26 +25,9 @@
     })();
   </script>
 
-  <!-- Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Ben Bernardy",
-    "jobTitle": "Full Stack Engineer",
-    "url": "https://benbernardy.dev",
-    "sameAs": [
-      "https://github.com/benkhz",
-      "https://linkedin.com/in/benkhz",
-      "https://twitter.com/benkhz"
-    ]
-  }
-  </script>
-
   <!-- Styles -->
-  <script type="module" crossorigin src="/assets/main-BcY-BobN.js"></script>
+  <script type="module" crossorigin src="/assets/projects-FHmiLS9t.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/init-i4ctr-NL.js">
-  <link rel="modulepreload" crossorigin href="/assets/utils-U-Ugjp6m.js">
   <link rel="stylesheet" crossorigin href="/assets/init-KxAeMaHZ.css">
 </head>
 <body class="h-screen flex flex-col">
@@ -79,7 +48,7 @@
           <a href="/" class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
             Home
           </a>
-          <a href="/projects.html" class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
+          <a href="/projects.html" class="text-primary font-medium">
             Projects
           </a>
           <a href="/journal.html" class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
@@ -93,8 +62,10 @@
           <button id="theme-toggle"
                   class="flex items-center justify-center p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors focus:outline-none focus:ring-2 focus:ring-primary"
                   aria-label="Toggle dark mode">
-            <iconify-icon id="theme-toggle-dark-icon" icon="heroicons:moon-20-solid" class="hidden w-5 h-5"></iconify-icon>
-            <iconify-icon id="theme-toggle-light-icon" icon="heroicons:sun-20-solid" class="hidden w-5 h-5"></iconify-icon>
+            <iconify-icon id="theme-toggle-dark-icon" icon="heroicons:moon-20-solid" class="hidden w-5 h-5">
+            </iconify-icon>
+            <iconify-icon id="theme-toggle-light-icon" icon="heroicons:sun-20-solid" class="hidden w-5 h-5">
+            </iconify-icon>
           </button>
         </div>
 
@@ -105,63 +76,25 @@
 
   <!-- Main Content -->
   <main id="main-content" class="flex-1 min-h-0 overflow-y-auto">
-    <!-- Hero Section -->
-    <section id="hero" class="relative py-12 md:py-20 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto overflow-hidden">
-      <!-- 3D Carousel Background -->
-      <div id="hero-carousel-background" class="absolute inset-0 flex items-center justify-center opacity-20 dark:opacity-10 pointer-events-none">
-        <!-- Carousel will be injected here by JavaScript -->
+    <!-- Projects Section -->
+    <section class="section pt-8 relative">
+      <!-- Spinning Gear Background -->
+      <div class="fixed -top-32 right-0 pointer-events-none opacity-40 gear-spin z-0" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" stroke-linecap="butt" stroke-linejoin="miter" width="720" height="720" class="text-primary">
+          <path d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.559.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.894.149c-.424.07-.764.383-.929.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.398.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.272-.806.108-1.204-.165-.397-.506-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.108-1.204l-.526-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894Z"/>
+          <path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+        </svg>
       </div>
 
-      <!-- Hero Content -->
-      <div class="relative z-10 w-full" data-animate>
-        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 leading-tight">
-          Hi, I'm <span class="text-primary">Ben Bernardy</span>
-        </h1>
-        <p class="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-6 md:mb-8 max-w-2xl">
-          Full Stack Engineer with 10+ years of experience connecting systems and solving complex challenges. I approach development like an explorer—venturing into the unknown to draw the map.
-        </p>
-        <div class="flex flex-wrap gap-3 md:gap-4">
-          <a href="/projects.html" class="btn-primary">
-            View Projects
-          </a>
-          <a href="/contact.html" class="btn-secondary">
-            Get In Touch
-          </a>
-        </div>
-
-        <!-- Social Links -->
-        <div class="flex items-center space-x-4 mt-6 md:mt-8">
-          <a href="https://github.com/benkhz"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
-             aria-label="GitHub">
-            <iconify-icon icon="mdi:github" width="32" height="32"></iconify-icon>
-          </a>
-          <a href="https://linkedin.com/in/benkhz"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
-             aria-label="LinkedIn">
-            <iconify-icon icon="mdi:linkedin" width="32" height="32"></iconify-icon>
-          </a>
-          <a href="https://twitter.com/benkhz"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
-             aria-label="Twitter">
-            <iconify-icon icon="mdi:twitter" width="32" height="32"></iconify-icon>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="py-12 md:py-20 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto" aria-label="Experience">
       <div data-animate>
-        <!-- Experience will be dynamically rendered here -->
-        <div id="experience-container" class="space-y-12 md:space-y-16">
-          <!-- Experience will be injected by JavaScript -->
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Featured Projects</h1>
+        <p class="text-gray-600 dark:text-gray-400 mb-12 text-lg">
+          Here are some of my recent works
+        </p>
+
+        <!-- Projects will be dynamically rendered here -->
+        <div id="projects-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Projects will be injected by JavaScript -->
         </div>
       </div>
     </section>
@@ -202,8 +135,8 @@
     </div>
     <nav class="px-6 pb-6">
       <div class="flex flex-col space-y-1">
-        <a href="/" class="mobile-drawer-link active">Home</a>
-        <a href="/projects.html" class="mobile-drawer-link">Projects</a>
+        <a href="/" class="mobile-drawer-link">Home</a>
+        <a href="/projects.html" class="mobile-drawer-link active">Projects</a>
         <a href="/journal.html" class="mobile-drawer-link">Journal</a>
         <a href="/contact.html" class="mobile-drawer-link">Contact</a>
       </div>
