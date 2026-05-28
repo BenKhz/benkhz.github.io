@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Primary Meta Tags -->
-  <title>Ben Bernardy | Full Stack Engineer</title>
-  <meta name="title" content="Ben Bernardy | Full Stack Engineer">
-  <meta name="description" content="Portfolio of Ben Bernardy, a full stack developer specializing in modern web technologies.">
+  <title>Ben Bernardy | Full Stack Engineer & AI Systems</title>
+  <meta name="title" content="Ben Bernardy | Full Stack Engineer & AI Systems">
+  <meta name="description"
+    content="Portfolio of Ben Bernardy — Full Stack Engineer specializing in AI-powered systems, LLM integration, MCP protocol, and agentic architectures.">
   <meta name="author" content="Ben Bernardy">
   <link rel="canonical" href="https://benbernardy.dev/">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://benbernardy.dev/">
-  <meta property="og:title" content="Ben Bernardy | Full Stack Engineer">
-  <meta property="og:description" content="Portfolio of Ben Bernardy, a full stack developer specializing in modern web technologies.">
+  <meta property="og:title" content="Ben Bernardy | Full Stack Engineer & AI Systems">
+  <meta property="og:description"
+    content="Portfolio of Ben Bernardy — Full Stack Engineer specializing in AI-powered systems, LLM integration, MCP protocol, and agentic architectures.">
   <meta property="og:image" content="https://benbernardy.dev/assets/og-image.jpg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://benbernardy.dev/">
-  <meta property="twitter:title" content="Ben Bernardy | Full Stack Engineer">
-  <meta property="twitter:description" content="Portfolio of Ben Bernardy, a full stack developer specializing in modern web technologies.">
+  <meta property="twitter:title" content="Ben Bernardy | Full Stack Engineer & AI Systems">
+  <meta property="twitter:description"
+    content="Portfolio of Ben Bernardy — Full Stack Engineer specializing in AI-powered systems, LLM integration, MCP protocol, and agentic architectures.">
   <meta property="twitter:image" content="https://benbernardy.dev/assets/og-image.jpg">
 
   <!-- Favicon -->
@@ -30,13 +34,13 @@
 
   <!-- Prevent FOUC for dark mode -->
   <script>
-    (function() {
-      const theme = localStorage.getItem('theme') ||
-                   (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-      if (theme === 'dark') {
-        document.documentElement.classList.add('dark');
+    ( function () {
+      const theme = localStorage.getItem( 'theme' ) ||
+        ( window.matchMedia( '(prefers-color-scheme: dark)' ).matches ? 'dark' : 'light' );
+      if ( theme === 'dark' ) {
+        document.documentElement.classList.add( 'dark' );
       }
-    })();
+    } )();
   </script>
 
   <!-- Structured Data (JSON-LD) -->
@@ -45,7 +49,7 @@
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Ben Bernardy",
-    "jobTitle": "Full Stack Engineer",
+    "jobTitle": "Full Stack Engineer · AI Systems",
     "url": "https://benbernardy.dev",
     "sameAs": [
       "https://github.com/benkhz",
@@ -56,11 +60,12 @@
   </script>
 
   <!-- Styles -->
-  <script type="module" crossorigin src="/assets/main-B0RonI4r.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/init-DTbCGpgv.js">
-  <link rel="modulepreload" crossorigin href="/assets/utils-U-Ugjp6m.js">
-  <link rel="stylesheet" crossorigin href="/assets/init-fKM6ocf6.css">
+  <script type="module" crossorigin src="/assets/main-Qq3fnfTm.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/init-Vg4QXP8g.js">
+  <link rel="modulepreload" crossorigin href="/assets/preload-helper-D7HrI6pR.js">
+  <link rel="stylesheet" crossorigin href="/assets/init-BTZxy3JE.css">
 </head>
+
 <body class="h-screen flex flex-col">
   <!-- Skip to main content (accessibility) -->
   <a href="#main-content" class="skip-to-content">Skip to main content</a>
@@ -70,31 +75,38 @@
     <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-24">
       <div class="flex items-center justify-between h-16">
         <!-- Logo/Name -->
-        <a href="/" class="text-xl font-bold text-gray-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors">
+        <a href="/"
+          class="text-xl font-bold text-gray-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors">
           Ben Bernardy
         </a>
 
         <!-- Navigation Links -->
         <div class="hidden md:flex items-center space-x-8">
-          <a href="/" class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
+          <a href="/"
+            class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
             Home
           </a>
-          <a href="/projects.html" class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
+          <a href="/projects.html"
+            class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
             Projects
           </a>
-          <a href="/journal.html" class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
+          <a href="/journal.html"
+            class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
             Journal
           </a>
-          <a href="/contact.html" class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
+          <a href="/contact.html"
+            class="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
             Contact
           </a>
 
           <!-- Dark mode toggle -->
           <button id="theme-toggle"
-                  class="flex items-center justify-center p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors focus:outline-none focus:ring-2 focus:ring-primary"
-                  aria-label="Toggle dark mode">
-            <iconify-icon id="theme-toggle-dark-icon" icon="heroicons:moon-20-solid" class="hidden w-5 h-5"></iconify-icon>
-            <iconify-icon id="theme-toggle-light-icon" icon="heroicons:sun-20-solid" class="hidden w-5 h-5"></iconify-icon>
+            class="flex items-center justify-center p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors focus:outline-none focus:ring-2 focus:ring-primary"
+            aria-label="Toggle dark mode">
+            <iconify-icon id="theme-toggle-dark-icon" icon="heroicons:moon-20-solid"
+              class="hidden w-5 h-5"></iconify-icon>
+            <iconify-icon id="theme-toggle-light-icon" icon="heroicons:sun-20-solid"
+              class="hidden w-5 h-5"></iconify-icon>
           </button>
         </div>
 
@@ -105,79 +117,250 @@
 
   <!-- Main Content -->
   <main id="main-content" class="flex-1 min-h-0 overflow-y-auto">
-    <!-- Hero Section -->
-    <section id="hero" class="relative py-12 md:py-20 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto overflow-hidden">
-      <!-- 3D Carousel Background -->
-      <div id="hero-carousel-background" class="absolute inset-0 flex items-center justify-center opacity-20 dark:opacity-10 pointer-events-none">
-        <!-- Carousel will be injected here by JavaScript -->
-      </div>
 
-      <!-- Hero Content -->
-      <div class="relative z-10 w-full" data-animate>
-        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 leading-tight">
-          Hi, I'm <span class="text-primary-dark">Ben Bernardy</span>
-        </h1>
-        <p class="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-6 md:mb-8 max-w-2xl">
-          Full Stack Engineer with 10+ years of experience connecting systems and solving complex challenges. I approach development like an explorer—venturing into the unknown to draw the map.
-        </p>
-        <div class="flex flex-wrap gap-3 md:gap-4">
-          <a href="/projects.html" class="btn-primary">
-            View Projects
-          </a>
-          <a href="/contact.html" class="btn-secondary">
-            Get In Touch
+    <!-- Bento Grid -->
+    <section id="bento" class="py-6 md:py-10 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto" aria-label="Introduction">
+      <div class="bento-grid">
+        <!-- Bio -->
+        <div id="bento-bio" class="bento-card bento-card--horizontal !p-0">
+          <bento-overlay scene="wave">
+            <div class="p-4 md:p-5 relative z-10">
+              <h1 class="text-4xl">Hi, my name is <span class="font-serif text-primary dark:text-primary">Ben Bernardy</span></h1>
+            </div>
+          </bento-overlay>
+        </div>
+        <!-- AI -->
+        <div id="bento-ai" class="bento-card bento-card--vertical !p-0">
+          <!-- orb glows — behind content, above topography -->
+          <div class="ai-orbs"></div>
+          <div class="relative z-10 h-full flex flex-col p-5">
+            <!-- top shine hairline -->
+            <div class="absolute top-0 left-5 right-5 h-px bg-gradient-to-r from-transparent via-indigo-400/50 to-transparent pointer-events-none"></div>
+
+            <!-- Header -->
+            <div class="flex items-start justify-between">
+              <div>
+                <p class="text-[0.65rem] font-semibold tracking-[0.12em] uppercase text-indigo-300/60 mb-1">Specialty</p>
+                <h2 class="text-2xl font-bold leading-tight bg-gradient-to-br from-indigo-200 via-blue-100 to-cyan-200 bg-clip-text text-transparent">AI &<br>LLM Systems</h2>
+              </div>
+              <iconify-icon icon="heroicons:sparkles-20-solid" class="text-indigo-300/50 text-2xl mt-0.5 flex-shrink-0"></iconify-icon>
+            </div>
+
+            <!-- Project highlights -->
+            <div class="flex flex-col gap-2 my-auto py-4">
+              <div class="rounded-2xl p-3 bg-white/[0.05] ring-1 ring-indigo-400/25">
+                <p class="text-xs font-semibold text-white/85">MCP Protocol</p>
+                <p class="text-[0.7rem] text-white/40 mt-0.5 leading-snug">One of the first production implementations in the ServiceNow ecosystem</p>
+              </div>
+              <div class="rounded-2xl p-3 bg-white/[0.05] ring-1 ring-blue-400/25">
+                <p class="text-xs font-semibold text-white/85">AI Document Editor</p>
+                <p class="text-[0.7rem] text-white/40 mt-0.5 leading-snug">Browser-native · local tool calling · multi-provider transport</p>
+              </div>
+              <div class="rounded-2xl p-3 bg-white/[0.05] ring-1 ring-cyan-400/25">
+                <p class="text-xs font-semibold text-white/85">Agentic Workflows</p>
+                <p class="text-[0.7rem] text-white/40 mt-0.5 leading-snug">Claude-coordinated tool use & platform data queries at enterprise scale</p>
+              </div>
+            </div>
+
+            <!-- Provider chips -->
+            <div class="flex flex-wrap gap-1.5">
+              <span class="px-2 py-0.5 text-[0.65rem] font-medium rounded-full bg-indigo-500/20 text-indigo-200 ring-1 ring-indigo-400/30">Claude</span>
+              <span class="px-2 py-0.5 text-[0.65rem] font-medium rounded-full bg-indigo-500/20 text-indigo-200 ring-1 ring-indigo-400/30">OpenAI</span>
+              <span class="px-2 py-0.5 text-[0.65rem] font-medium rounded-full bg-cyan-500/20 text-cyan-200 ring-1 ring-cyan-400/30">Tool Use</span>
+              <span class="px-2 py-0.5 text-[0.65rem] font-medium rounded-full bg-violet-500/20 text-violet-200 ring-1 ring-violet-400/30">RAG</span>
+              <span class="px-2 py-0.5 text-[0.65rem] font-medium rounded-full bg-blue-500/20 text-blue-200 ring-1 ring-blue-400/30">Local LLM</span>
+            </div>
+
+          </div>
+        </div>
+        <!-- Tools -->
+        <div id="tools" class="bento-card bento-card--square relative">
+          <tech-tiles>
+            <ul aria-label="Technologies" class="sr-only">
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>Vue</li>
+              <li>Node.js</li>
+              <li>NestJS</li>
+              <li>Redux</li>
+              <li>Next.js</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+              <li>Docker</li>
+              <li>Git</li>
+              <li>AWS</li>
+              <li>Vite</li>
+              <li>Tailwind</li>
+              <li>Flutter</li>
+              <li>GraphQL</li>
+              <li>Playwright</li>
+              <li>Webpack</li>
+              <li>Pinia</li>
+            </ul>
+          </tech-tiles>
+          <a href="/journal.html" aria-label="View Tools and Journals"
+            class="group absolute z-10 inline-flex h-10 items-center overflow-hidden rounded-full ring-1 ring-zinc-400 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm transition-all duration-300">
+            <!-- Icon circle -->
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full transition-all duration-300">
+              <iconify-icon icon="mdi:arrow-right" class="text-lg leading-none"></iconify-icon>
+            </span>
+
+            <!-- Hidden / expanding text -->
+            <span
+              class="max-w-0 overflow-hidden whitespace-nowrap pr-0 opacity-0 transition-all duration-300 group-hover:ml-1 group-hover:max-w-32 group-hover:pr-4 group-hover:opacity-100 group-focus-within:ml-1 group-focus-within:max-w-32 group-focus-within:pr-4 group-focus-within:opacity-100">
+              Tools
+            </span>
           </a>
         </div>
-
-        <!-- Social Links -->
-        <div class="flex items-center space-x-4 mt-6 md:mt-8">
-          <a href="https://github.com/benkhz"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
-             aria-label="GitHub">
-            <iconify-icon icon="mdi:github" width="32" height="32"></iconify-icon>
-          </a>
-          <a href="https://linkedin.com/in/benbernardy"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
-             aria-label="LinkedIn">
-            <iconify-icon icon="mdi:linkedin" width="32" height="32"></iconify-icon>
-          </a>
-          <a href="https://twitter.com/benkhz"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
-             aria-label="Twitter">
-            <iconify-icon icon="mdi:twitter" width="32" height="32"></iconify-icon>
-          </a>
+        <!-- Current Role -->
+        <div id="bento-role" class="bento-card !p-0">
+          <bento-overlay scene="nodes" always-on>
+            <div class="relative w-full h-full flex flex-col justify-end p-5 overflow-hidden">
+              <!-- watermark -->
+              <span aria-hidden="true"
+                class="absolute inset-0 flex items-center justify-center text-5xl font-black tracking-[0.18em] uppercase text-white/[0.035] pointer-events-none select-none whitespace-nowrap">
+                Intellective
+              </span>
+              <!-- scrim behind text -->
+              <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,_#0c1424_0%,_#0c142466_50%,_transparent_90%)] pointer-events-none"></div>
+              <!-- content -->
+              <div class="relative z-10 flex flex-col gap-0.5">
+                <span class="flex items-center gap-1.5 text-[0.65rem] font-semibold tracking-[0.1em] uppercase text-emerald-400 mb-1">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 shadow-[0_0_6px_theme(colors.emerald.400)] animate-pulse"></span>
+                  Now
+                </span>
+                <h3 class="text-xl font-bold text-slate-100 leading-snug">Full Stack Developer</h3>
+                <p class="text-sm font-medium text-slate-300/70">Intellective</p>
+                <p class="text-xs text-slate-300/40 tracking-wide">Jul 2022 – Present</p>
+              </div>
+            </div>
+          </bento-overlay>
         </div>
-      </div>
-    </section>
+        <!-- Socials -->
+        <div id="bento-socials" class="bento-card relative !p-0 text-2xl">
+          <icon-carousel>
+            <a href="https://github.com/benkhz" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <iconify-icon style="font-size: 72px;" icon="mdi:github"></iconify-icon>
+            </a>
+            <a href="https://linkedin.com/in/benbernardy" target="_blank" rel="noopener noreferrer"
+              aria-label="LinkedIn">
+              <iconify-icon style="font-size: 72px;" icon="mdi:linkedin"></iconify-icon>
+            </a>
+            <a href="https://www.instagram.com/benkhz/" target="_blank" rel="noopener noreferrer"
+              aria-label="Instagram">
+              <iconify-icon style="font-size: 72px;" icon="mdi:instagram"></iconify-icon>
+            </a>
+            <a href="mailto:benbernardy@gmail.com" aria-label="Email">
+              <iconify-icon style="font-size: 72px;" icon="mdi:email-outline"></iconify-icon>
+            </a>
+          </icon-carousel>
+        </div>
+        <!-- Projects -->
+        <div id="bento-projects" class="bento-card bento-card--vertical !p-0">
+          <bento-overlay scene="rays">
+            <div class="relative w-full h-full">
 
-    <!-- Experience Section -->
-    <section id="experience" class="py-12 md:py-20 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto" aria-label="Experience">
+              <!-- Nav button -->
+              <div class="absolute top-4 left-4 md:top-5 md:left-5 z-20">
+                <a href="/projects.html" aria-label="View Projects"
+                  class="group inline-flex h-10 items-center overflow-hidden rounded-full ring-1 ring-zinc-400 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm transition-all duration-300">
+                  <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full transition-all duration-300">
+                    <iconify-icon icon="mdi:arrow-right" class="text-lg leading-none"></iconify-icon>
+                  </span>
+                  <span class="max-w-0 overflow-hidden whitespace-nowrap pr-0 opacity-0 transition-all duration-300 group-hover:ml-1 group-hover:max-w-32 group-hover:pr-4 group-hover:opacity-100 group-focus-within:ml-1 group-focus-within:max-w-32 group-focus-within:pr-4 group-focus-within:opacity-100">
+                    Projects
+                  </span>
+                </a>
+              </div>
+
+              <!-- Rocket — dead center, -45deg, always above canvas -->
+              <div class="absolute inset-0 flex items-center justify-center pointer-events-none select-none z-[50]">
+                <iconify-icon icon="mdi:rocket-launch-outline"
+                  class="text-[150px] text-accent drop-shadow-sm"
+                  style="transform: rotate(-65deg);">
+                </iconify-icon>
+              </div>
+
+              <!-- Project card 1: Amaze — above the rocket -->
+              <div class="absolute z-20 w-[75%] p-3 rounded-2xl bg-white dark:bg-white/[0.07] ring-1 ring-gray-200 dark:ring-white/15 shadow-md"
+                style="top: 14%; left: calc(50% + 60px); transform: translateX(-50%) rotate(70deg);">
+                <p class="text-[0.6rem] font-semibold tracking-widest uppercase text-amber-500 dark:text-amber-300 mb-0.5">Featured</p>
+                <h4 class="text-sm font-bold text-gray-900 dark:text-white leading-tight">Amaze</h4>
+                <p class="text-[0.65rem] text-gray-500 dark:text-white/50 mt-0.5 leading-snug">Knowledge builder for ServiceNow</p>
+                <div class="flex gap-1 mt-1.5 flex-wrap">
+                  <span class="text-[0.6rem] px-1.5 py-0.5 rounded-full bg-gray-100 dark:bg-white/10 text-gray-600 dark:text-white/65 ring-1 ring-gray-200 dark:ring-white/15">Vue</span>
+                  <span class="text-[0.6rem] px-1.5 py-0.5 rounded-full bg-gray-100 dark:bg-white/10 text-gray-600 dark:text-white/65 ring-1 ring-gray-200 dark:ring-white/15">ServiceNow</span>
+                </div>
+              </div>
+
+              <!-- Project card 2: DM's Friend — below the rocket -->
+              <div class="absolute z-20 w-[75%] p-3 rounded-2xl bg-white dark:bg-white/[0.07] ring-1 ring-gray-200 dark:ring-white/15 shadow-md"
+                style="top: 62%; left: calc(50% - 60px); transform: translateX(-50%) rotate(70deg);">
+                <p class="text-[0.6rem] font-semibold tracking-widest uppercase text-sky-500 dark:text-sky-300 mb-0.5">Open Source</p>
+                <h4 class="text-sm font-bold text-gray-900 dark:text-white leading-tight">DM's Friend</h4>
+                <p class="text-[0.65rem] text-gray-500 dark:text-white/50 mt-0.5 leading-snug">D&D virtual tabletop</p>
+                <div class="flex gap-1 mt-1.5 flex-wrap">
+                  <span class="text-[0.6rem] px-1.5 py-0.5 rounded-full bg-gray-100 dark:bg-white/10 text-gray-600 dark:text-white/65 ring-1 ring-gray-200 dark:ring-white/15">Node.js</span>
+                  <span class="text-[0.6rem] px-1.5 py-0.5 rounded-full bg-gray-100 dark:bg-white/10 text-gray-600 dark:text-white/65 ring-1 ring-gray-200 dark:ring-white/15">Socket.io</span>
+                </div>
+              </div>
+
+            </div>
+          </bento-overlay>
+        </div>
+        <!-- Listening  (Spotify Api)-->
+        <div id="bento-location" class="bento-card !p-0">
+          <bento-location>
+            <p class="location-label">Based in</p>
+            <h3 class="location-city">San Diego, CA</h3>
+          </bento-location>
+        </div>
+        <!-- Socials (instagram, github, linkedin) -->
+        <div id="bento-listening" class="bento-card bento-card--horizontal">
+          <bento-listening>
+            <p class="playback-label">Now playing</p>
+            <h3 class="playback-title">I'm listening to...</h3>
+            <ul class="playback-tracks">
+              <li>The Beirut Bank Job</li>
+              <li>Darknet Diaries</li>
+            </ul>
+          </bento-listening>
+        </div>
+        <!-- Games (Astroids component)-->
+
+
+        <!-- Journal -->
+        <!---- Contact (email) -->
+
+
+
+
+        <!-- Experience Section -->
+        <!-- <section id="experience" class="py-12 md:py-20 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto" aria-label="Experience">
       <div data-animate>
-        <!-- Experience will be dynamically rendered here -->
         <div id="experience-container" class="space-y-12 md:space-y-16">
-          <!-- Experience will be injected by JavaScript -->
+
         </div>
       </div>
-    </section>
+    </section> -->
+
   </main>
 
   <!-- Footer -->
   <footer class="flex-shrink-0 border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 py-1.5 px-6">
     <div class="max-w-7xl mx-auto relative flex items-center justify-center">
       <div class="absolute left-0 flex space-x-3">
-        <a href="https://github.com/benkhz" target="_blank" rel="noopener noreferrer" class="text-gray-500 dark:text-gray-500 hover:text-primary transition-colors" aria-label="GitHub">
+        <a href="https://github.com/benkhz" target="_blank" rel="noopener noreferrer"
+          class="text-gray-500 dark:text-gray-500 hover:text-primary transition-colors" aria-label="GitHub">
           <iconify-icon icon="mdi:github" class="w-4 h-4"></iconify-icon>
         </a>
-        <a href="https://linkedin.com/in/benbernardy" target="_blank" rel="noopener noreferrer" class="text-gray-500 dark:text-gray-500 hover:text-primary transition-colors" aria-label="LinkedIn">
+        <a href="https://linkedin.com/in/benbernardy" target="_blank" rel="noopener noreferrer"
+          class="text-gray-500 dark:text-gray-500 hover:text-primary transition-colors" aria-label="LinkedIn">
           <iconify-icon icon="mdi:linkedin" class="w-4 h-4"></iconify-icon>
         </a>
-        <a href="https://twitter.com/benkhz" target="_blank" rel="noopener noreferrer" class="text-gray-500 dark:text-gray-500 hover:text-primary transition-colors" aria-label="Twitter">
+        <a href="https://twitter.com/benkhz" target="_blank" rel="noopener noreferrer"
+          class="text-gray-500 dark:text-gray-500 hover:text-primary transition-colors" aria-label="Twitter">
           <iconify-icon icon="mdi:twitter" class="w-4 h-4"></iconify-icon>
         </a>
       </div>
@@ -208,11 +391,14 @@
         <a href="/contact.html" class="mobile-drawer-link">Contact</a>
       </div>
       <div class="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
-        <button id="mobile-drawer-theme-toggle" class="mobile-drawer-link flex items-center justify-between" aria-label="Toggle dark mode">
+        <button id="mobile-drawer-theme-toggle" class="mobile-drawer-link flex items-center justify-between"
+          aria-label="Toggle dark mode">
           <span>Theme</span>
           <div class="flex gap-2">
-            <iconify-icon id="mobile-drawer-dark-icon" icon="heroicons:moon-20-solid" class="hidden w-5 h-5"></iconify-icon>
-            <iconify-icon id="mobile-drawer-light-icon" icon="heroicons:sun-20-solid" class="hidden w-5 h-5"></iconify-icon>
+            <iconify-icon id="mobile-drawer-dark-icon" icon="heroicons:moon-20-solid"
+              class="hidden w-5 h-5"></iconify-icon>
+            <iconify-icon id="mobile-drawer-light-icon" icon="heroicons:sun-20-solid"
+              class="hidden w-5 h-5"></iconify-icon>
           </div>
         </button>
       </div>
@@ -221,4 +407,5 @@
 
   <!-- Scripts -->
 </body>
+
 </html>
