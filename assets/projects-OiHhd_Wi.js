@@ -1,4 +1,4 @@
-import{i as o}from"./init-Ba2QAgW4.js";const a=[{id:"1",title:"Amaze",description:"On Platform Knowledge Management Solution for ServiceNow, featuring a drag-and-drop article builder, customizable templates, and an intuitive interface to streamline content creation and management.",technologies:["Vue","Vuetify","Grapesjs","ServiceNow"],image:"/assets/images/amaze_logo.svg",liveUrl:"https://intellective.co/amaze-knowledge-builder-for-servicenow",status:"featured",date:"2024-01"},{id:"2",title:"DM's Friend",description:"Open source tool for Dungeons & Dragons players to enchance remote play by sharing collaborative virtual table tops, character sheets, and campaign management features.",technologies:["Redis","PostgreSQL","Node.js","Express","Socket.io"],image:"/assets/images/DMF_icon.png",status:"coming-soon",date:"2023-11"},{id:"3",title:"JSON Util on Servicenow",description:"A utility created after teams shared frustration manipulating coplex json structures in servicenow string fields, such as system_properties and custom table fields.",technologies:["JavaScript","ServiceNow","JSON"],image:"/assets/images/jsnow_logo.png",date:"2023-09"}];o(l);function l(){if(!a||a.length===0)return;const s=a,i=document.getElementById("projects-container");i.innerHTML="",s.forEach((e,n)=>{const t=document.createElement("article");t.className="card group",t.dataset.animate="true",t.dataset.animation="fadeIn",n<5&&t.style.setProperty("--animate-delay",`${n*100}ms`),t.innerHTML=`
+import{i as r}from"./init-C6HmIWaZ.js";const i=[{id:"1",title:"Amaze",description:"On Platform Knowledge Management Solution for ServiceNow, featuring a drag-and-drop article builder, customizable templates, and an intuitive interface to streamline content creation and management.",technologies:["Vue","Vuetify","Grapesjs","ServiceNow"],image:"/assets/images/amaze_logo.svg",liveUrl:"https://intellective.co/amaze-knowledge-builder-for-servicenow",status:"featured",date:"2024-01"},{id:"2",title:"DM's Friend",description:"Open source tool for Dungeons & Dragons players to enchance remote play by sharing collaborative virtual table tops, character sheets, and campaign management features.",technologies:["Redis","PostgreSQL","Node.js","Express","Socket.io"],image:"/assets/images/DMF_icon.png",status:"coming-soon",date:"2023-11"},{id:"3",title:"JSON Util on Servicenow",description:"A utility created after teams shared frustration manipulating coplex json structures in servicenow string fields, such as system_properties and custom table fields.",technologies:["JavaScript","ServiceNow","JSON"],image:"/assets/images/jsnow_logo.png",date:"2023-09"},{id:"4",title:"@benkhz/vui-ui",description:"A Vue component library published to npm with full VitePress documentation. Designed for composability and zero-config usage in Vue 3 projects.",technologies:["Vue","VitePress","TypeScript"],liveUrl:"https://benkhz.github.io/vui-ui",status:"npm",date:"2026-06"}];r(l);function l(){if(!i||i.length===0)return;const s=i,a=document.getElementById("projects-container");a.innerHTML="",s.forEach((e,n)=>{const t=document.createElement("article");t.className="card group",t.dataset.animate="true",t.dataset.animation="fadeIn",n<5&&t.style.setProperty("--animate-delay",`${n*100}ms`),t.innerHTML=`
       <div class="flex flex-col h-full">
         ${e.image?`
           <div class="mb-4 -mx-4 -mt-4 md:-mx-6 md:-mt-6 overflow-hidden rounded-t-lg ${e.image.endsWith(".svg")?"bg-gray-50 dark:bg-gray-700/30":""}">
@@ -11,6 +11,7 @@ import{i as o}from"./init-Ba2QAgW4.js";const a=[{id:"1",title:"Amaze",descriptio
 
         ${e.status==="featured"?'<span class="inline-block bg-accent text-white text-xs px-2 py-1 rounded mb-3 w-fit">Featured</span>':""}
         ${e.status==="coming-soon"?'<span class="inline-block bg-gray-400 dark:bg-gray-600 text-white text-xs px-2 py-1 rounded mb-3 w-fit">Coming Soon</span>':""}
+        ${e.status==="npm"?'<span class="inline-block bg-violet-500 text-white text-xs px-2 py-1 rounded mb-3 w-fit">npm</span>':""}
 
         <h3 class="text-2xl font-bold mb-3 group-hover:text-primary transition-colors">
           ${e.title}
@@ -21,9 +22,9 @@ import{i as o}from"./init-Ba2QAgW4.js";const a=[{id:"1",title:"Amaze",descriptio
         </p>
 
         <div class="flex flex-wrap gap-2 mb-4">
-          ${e.technologies.map(r=>`
+          ${e.technologies.map(o=>`
             <span class="text-xs bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded">
-              ${r}
+              ${o}
             </span>
           `).join("")}
         </div>
@@ -49,4 +50,4 @@ import{i as o}from"./init-Ba2QAgW4.js";const a=[{id:"1",title:"Amaze",descriptio
           `:""}
         </div>
       </div>
-    `,i.appendChild(t)})}
+    `,a.appendChild(t)})}
