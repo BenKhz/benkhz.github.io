@@ -1,4 +1,4 @@
-import{i as _}from"./init-C6HmIWaZ.js";import{_ as x}from"./preload-helper-D7HrI6pR.js";const y=`
+import{i as _}from"./init-D167z9Mp.js";import{_ as x}from"./preload-helper-D7HrI6pR.js";const y=`
   :host {
     display: block;
     position: relative;
@@ -455,4 +455,4 @@ import{i as _}from"./init-C6HmIWaZ.js";import{_ as x}from"./preload-helper-D7HrI
   <div class="location-text">
     <slot></slot>
   </div>
-`;class q extends HTMLElement{connectedCallback(){const t=this.attachShadow({mode:"open"});t.innerHTML=j+`<style>${P}</style>`}}customElements.define("bento-location",q);_(()=>{const a=document.getElementById("bento-ai");if(!a)return;const t=new IntersectionObserver(([e])=>{e.isIntersecting&&(t.disconnect(),x(()=>import("./bento-chat-agent-B4-zHF8d.js"),[]))},{threshold:.1});t.observe(a)});
+`;class q extends HTMLElement{connectedCallback(){const t=this.attachShadow({mode:"open"});t.innerHTML=j+`<style>${P}</style>`}}customElements.define("bento-location",q);_(()=>{const a=document.getElementById("bento-ai");if(!a)return;const t=new IntersectionObserver(([e])=>{e.isIntersecting&&(t.disconnect(),x(()=>import("./bento-chat-agent-CF9CQkOv.js"),[]))},{threshold:.1});t.observe(a)});
