@@ -60,10 +60,9 @@
   </script>
 
   <!-- Styles -->
-  <script type="module" crossorigin src="/assets/main-B7lnMxze.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/init-D167z9Mp.js">
-  <link rel="modulepreload" crossorigin href="/assets/preload-helper-D7HrI6pR.js">
-  <link rel="stylesheet" crossorigin href="/assets/init-Cc2rnpfr.css">
+  <script type="module" crossorigin src="/assets/main-Bj9oFQcK.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/init-DFVXtHBA.js">
+  <link rel="stylesheet" crossorigin href="/assets/init-0PIq_olt.css">
 </head>
 
 <body class="h-screen flex flex-col">
@@ -127,7 +126,7 @@
             <div class="p-4 md:p-5 relative z-10">
               <h1 class="text-4xl font-bold bg-gradient-to-br from-gray-900 via-blue-900 to-gray-700 dark:from-white dark:via-blue-200 dark:to-gray-300 bg-clip-text text-transparent">Hi, I'm <span class="font-serif">Ben Bernardy</span></h1>
               <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Full-stack engineer focused on AI systems and LLM integrations. I build things that are fast, intelligent, and a little obsessive about the details.</p>
-              <p class="mt-3 text-sm text-gray-500 dark:text-gray-400">→ <a href="/contact.html" class="text-primary dark:text-primary font-medium hover:underline">Get in touch</a></p>
+              <button id="chat-cta" type="button" class="ai-cta mt-3">Talk to my Agent</button>
             </div>
           </bento-overlay>
         </div>
@@ -147,6 +146,8 @@
               </div>
               <iconify-icon icon="heroicons:sparkles-20-solid" class="text-indigo-300/50 text-2xl mt-0.5 flex-shrink-0"></iconify-icon>
             </div>
+
+            <bento-chat-agent></bento-chat-agent>
 
             <!-- Project highlights -->
             <div class="flex flex-col gap-2 my-auto py-4">
@@ -172,8 +173,6 @@
               <span class="px-2 py-0.5 text-[0.65rem] font-medium rounded-full bg-violet-500/20 text-violet-200 ring-1 ring-violet-400/30">RAG</span>
               <span class="px-2 py-0.5 text-[0.65rem] font-medium rounded-full bg-blue-500/20 text-blue-200 ring-1 ring-blue-400/30">Local LLM</span>
             </div>
-
-            <bento-chat-agent></bento-chat-agent>
 
           </div>
         </div>
@@ -371,10 +370,6 @@
           class="text-gray-500 dark:text-gray-500 hover:text-primary transition-colors" aria-label="LinkedIn">
           <iconify-icon icon="mdi:linkedin" class="w-4 h-4"></iconify-icon>
         </a>
-        <a href="https://twitter.com/benkhz" target="_blank" rel="noopener noreferrer"
-          class="text-gray-500 dark:text-gray-500 hover:text-primary transition-colors" aria-label="Twitter">
-          <iconify-icon icon="mdi:twitter" class="w-4 h-4"></iconify-icon>
-        </a>
       </div>
       <p class="text-gray-500 dark:text-gray-500 text-xs">© <span id="current-year"></span> Ben Bernardy</p>
     </div>
@@ -401,6 +396,10 @@
         <a href="/projects.html" class="mobile-drawer-link">Projects</a>
         <a href="/journal.html" class="mobile-drawer-link">Journal</a>
         <a href="/contact.html" class="mobile-drawer-link">Contact</a>
+        <button id="mobile-drawer-chat" class="mobile-drawer-link flex items-center justify-between" aria-label="Ask AI about Ben">
+          <span>Ask AI</span>
+          <iconify-icon icon="heroicons:sparkles-20-solid" class="w-5 h-5"></iconify-icon>
+        </button>
       </div>
       <div class="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
         <button id="mobile-drawer-theme-toggle" class="mobile-drawer-link flex items-center justify-between"

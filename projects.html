@@ -26,9 +26,10 @@
   </script>
 
   <!-- Styles -->
-  <script type="module" crossorigin src="/assets/projects-AYafayZO.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/init-D167z9Mp.js">
-  <link rel="stylesheet" crossorigin href="/assets/init-Cc2rnpfr.css">
+  <script type="module" crossorigin src="/assets/projects-DInCQHBP.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/init-DFVXtHBA.js">
+  <link rel="modulepreload" crossorigin href="/assets/bento-chat-agent-CX52HEEg.js">
+  <link rel="stylesheet" crossorigin href="/assets/init-0PIq_olt.css">
 </head>
 <body class="h-screen flex flex-col">
   <!-- Skip to main content (accessibility) -->
@@ -110,9 +111,6 @@
         <a href="https://linkedin.com/in/benbernardy" target="_blank" rel="noopener noreferrer" class="text-gray-500 dark:text-gray-500 hover:text-primary transition-colors" aria-label="LinkedIn">
           <iconify-icon icon="mdi:linkedin" class="w-4 h-4"></iconify-icon>
         </a>
-        <a href="https://twitter.com/benkhz" target="_blank" rel="noopener noreferrer" class="text-gray-500 dark:text-gray-500 hover:text-primary transition-colors" aria-label="Twitter">
-          <iconify-icon icon="mdi:twitter" class="w-4 h-4"></iconify-icon>
-        </a>
       </div>
       <p class="text-gray-500 dark:text-gray-500 text-xs">© <span id="current-year"></span> Ben Bernardy</p>
     </div>
@@ -139,6 +137,10 @@
         <a href="/projects.html" class="mobile-drawer-link active">Projects</a>
         <a href="/journal.html" class="mobile-drawer-link">Journal</a>
         <a href="/contact.html" class="mobile-drawer-link">Contact</a>
+        <button id="mobile-drawer-chat" class="mobile-drawer-link flex items-center justify-between" aria-label="Ask AI about Ben">
+          <span>Ask AI</span>
+          <iconify-icon icon="heroicons:sparkles-20-solid" class="w-5 h-5"></iconify-icon>
+        </button>
       </div>
       <div class="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
         <button id="mobile-drawer-theme-toggle" class="mobile-drawer-link flex items-center justify-between" aria-label="Toggle dark mode">
@@ -151,6 +153,9 @@
       </div>
     </nav>
   </div>
+
+  <!-- AI chat launcher — floating on desktop, reachable via the mobile drawer's "Ask AI" above -->
+  <bento-chat-agent mode="fab"></bento-chat-agent>
 
   <!-- Scripts -->
 </body>
